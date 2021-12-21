@@ -1,0 +1,16 @@
+{
+  "name": "good_old_tetris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "yury_mikhnovets <mikhnovets.yuri@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

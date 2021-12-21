@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tetris JS</title>
+</head>
+<body>
+    
+    <div class="container unselectable">
+        <div class="gameboy">
+          <div class="gameboy__screenzone">
+            <div id="root">
+              <h1>GOOD OLD TETRIS</h1>
+            </div>
+            <div class="gameboy__keys gameboy__keys_options">
+              <div class="gameboy__key-wrapper">
+                <button class="gameboy__key gameboy__key_option" id="keyStart"></button>
+                <div class="gameboy__key-descr">start</div>
+              </div>
+              <div class="gameboy__key-wrapper">
+                <button class="gameboy__key gameboy__key_option" id="keyMusic"></button>
+                <div class="gameboy__key-descr">music</div>
+              </div>
+              <div class="gameboy__key-wrapper">
+                <button class="gameboy__key gameboy__key_option" id="keySound"></button>
+                <div class="gameboy__key-descr">sound</div>
+              </div>
+            </div>
+            <div class="gameboy__controlblock">
+              <div class="gameboy__keys gameboy__keys_control">
+                <button class="gameboy__key gameboy__key_control" id="keyUp"></button>
+                <div class="gameboy__keys_control-wrapper">
+                  <button class="gameboy__key gameboy__key_control" id="keyLeft"></button>
+                  <img class="gameboy__cross-img" src="img/cross.svg" alt="cross aroows">
+                  <button class="gameboy__key gameboy__key_control" id="keyRight"></button>
+                </div>
+                <button class="gameboy__key gameboy__key_control" id="keyDown"></button>
+              </div>
+              <div class="gameboy__keys gameboy__keys_control">
+                <div class="gameboy__key-wrapper">
+                  <button class="gameboy__key gameboy__key_rotate" id="keyRotate"></button>
+                  <div class="gameboy__key-descr">rotate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="./js/bundle.js"></script>
+</body>
+</html>
